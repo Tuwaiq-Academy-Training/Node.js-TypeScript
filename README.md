@@ -7,7 +7,6 @@
 - تثبيت node & npm
 - كيفية تثبيت مكتبة من npm
 - الاوامر المستخدمة في npm
-- ماهو npm config
 
 
 
@@ -83,21 +82,4 @@
 | npm update  |سيقوم هذا الأمر بتحديث جميع الحزم المثبتة داخل ملف package.json| 
 | npm run |استخدم هذا الأمر لتنفيذ الحزم المتاحة للتشغيل| 
 
-## ماهو npm config
- هو ادارة ملفات التكوين
- 
- #### ملخص
- 
-      npm config set <key>=<value> [<key>=<value> ...]
-      npm config get [<key> [<key> ...]]
-      npm config delete <key> [<key> ...]
-      npm config list [--json]
-      npm config edit
-      alias: c
-      
-  
-#### وصف 
-      
-يحصل npm على إعدادات التكوين الخاصة به من سطر الأوامر ، ومتغيرات البيئة ، وملفات npmrc ، وفي بعض الحالات ، من ملف package.json.
-      
-يمكن استخدام الأمر npm config لتحديث وتحرير محتويات المستخدم وملفات npmrc العامة.
+
