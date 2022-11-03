@@ -42,7 +42,7 @@
 
 ![image](https://d2ms8rpfqc4h24.cloudfront.net/uploads/2021/10/Choose-Path-to-Install-Node.js.png)
 
-####  بعد ذالك سيتم تثبيت الميزايا التالية افتراضيا 
+####  بعد ذالك سيتم تثبيت المزايا التالية افتراضيا 
 ![image](https://d2ms8rpfqc4h24.cloudfront.net/Select_Node_js_Features_to_install_0847ad9e3a.png)
 
 #### بعد الضغط على التالي ستظهر صفحة التثبيت ونقوم بتثبيت المزايا
