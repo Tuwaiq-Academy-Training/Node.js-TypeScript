@@ -174,3 +174,14 @@
 
 تفاصيل وشرح لجميع الأنواع تجدونها على في [ هذا الرابط](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
+## 2. الدوال في تايب سكريبت
+
+ضيف لغة TypeScript مجموعة من المميزات للدوال، فإلى جانب تحديد نوع البارامترات الذي اكتشفناه أعلاه، يمكننا كذلك تحديد نوع القيمة المرجعة من طرف الدالة
+
+        function greeter(name: string): string {
+          return 'Hello, ' + name;
+        }
+
+## 3. الواجهات (Interfaces)
+
+
