@@ -205,3 +205,22 @@
       
 يمكن للكائن person هنا أن يحتوي على خاصيات إضافية ولكن من الضروري أن يتوفر على الأقل على الخاصيتين firstName و lastName المصرح بهما في واجهة Person.
 
+      interface Person {
+        firstName: string;
+        lastName: string;
+        getFullName(): string;
+      }
+      class Student implements Person {
+        constructor(public firstName: string, public lastName: string) {}
+
+        getFullName() {
+          return this.firstName + ' ' + this.lastName;
+        }
+      }
+
+      var student = new Student('Aissa', 'BOUGUERN');
+
+      console.log(student.getFullName()); // Aissa BOUGUERN
+      
+لاحظوا أننا استعملنا الكلمة implements لنطلب من الصنف Student اتباع بنية الواجهة Person.
+
