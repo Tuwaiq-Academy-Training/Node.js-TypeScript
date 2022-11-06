@@ -184,4 +184,24 @@
 
 ## 3. الواجهات (Interfaces)
 
+تتيح لنا الواجهات تعيين الخصائص والوظائف الواجب توفرها في كائن (Object) أو صنف (Class) محدد.
+
+
+نقوم بالتصريح بالواجهة في TypeScript بهذه الطريقة:
+
+
+
+      interface Person {
+        firstName: string;
+        lastName: string;
+      }
+      
+ويمكننا استخدامها تماما مثلما نستعمل الأنواع الأساسية المدعومة من لغة البرمجة Typescript.
+
+
+      function greeter(person: Person) {
+        return 'Hello, ' + person.firstName + ' ' + person.lastName;
+      }
+      
+يمكن للكائن person هنا أن يحتوي على خاصيات إضافية ولكن من الضروري أن يتوفر على الأقل على الخاصيتين firstName و lastName المصرح بهما في واجهة Person.
 
