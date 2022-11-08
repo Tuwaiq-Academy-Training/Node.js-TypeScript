@@ -108,7 +108,13 @@
 
 
 
-
+## ال Compiling TypeScript
+- يستخدم TypeScript ملحقات .ts و. tx
+- يستخدم TSC (compile   TypeScript) لترجمة ملفات .ts وصولاً إلى JS
+- يمكن مشاهدة الملفات والإبلاغ عن الأخطاء في compile time
+- تتضمن العديد من الأدوات تجميع TS بشكل افتراضي
+- تتمتع معظم IDEs بدعم كبير لـ TS 
+- يتم استخدام ملف tsconfig.json لتكوين طريقة عمل TypeScript
 
 ## تثبيت وإعداد TypeScript
 
