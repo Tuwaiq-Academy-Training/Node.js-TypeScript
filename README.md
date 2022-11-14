@@ -258,3 +258,11 @@
       
 لاحظوا أننا استعملنا الكلمة implements لنطلب من الصنف Student اتباع بنية الواجهة Person.
 
+#### اضافات VScode 
+
+- TypeScript
+- ESLint
+- Prettier 
+- Error Lens
+
+
