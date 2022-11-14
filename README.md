@@ -266,3 +266,11 @@
 - Error Lens
 
 
+## الاوامر 
+
+         npm i -g typescript 
+         npm i -g nodemon
+         npm i -g ts-node
+         tsc --init
+         tsc -- watch ( file name).ts
+         
